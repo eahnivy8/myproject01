@@ -29,7 +29,7 @@ class MenuVC: UITableViewController {
         let defaults = UserDefaults.standard    // 로컬 저장 변수 클래스
         if let name = defaults.string(forKey: "userName") {
             let welcome = NSLocalizedString("WELCOME", comment: " 님 환영합니다.")    // 다국어 적용 문자열 가져옴
-            self.profileLabel.text = "\(name)\(welcome)"
+        
         }
         
     }

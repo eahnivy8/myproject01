@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,20 +35,7 @@
                         <view key="tableFooterView" contentMode="scaleToFill" id="zbc-kA-egV">
                             <rect key="frame" x="0.0" y="380" width="240" height="131"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="kea-7h-qqh">
-                                    <rect key="frame" x="78" y="73" width="154" height="50"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="50" id="Ccw-dN-c6p"/>
-                                        <constraint firstAttribute="width" constant="154" id="X1Q-WJ-5VC"/>
-                                    </constraints>
-                                </imageView>
-                            </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="bottom" secondItem="kea-7h-qqh" secondAttribute="bottom" constant="8" id="zK1-vq-ftJ"/>
-                                <constraint firstAttribute="trailing" secondItem="kea-7h-qqh" secondAttribute="trailing" constant="8" id="zf3-Yr-WIA"/>
-                            </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="X57-3u-cCi">
@@ -66,8 +54,8 @@
                                                         <constraint firstAttribute="height" constant="52" id="ny3-af-fiS"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SBS 님 환영합니다" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeg-Zl-o7O">
-                                                    <rect key="frame" x="36" y="87" width="168" height="19"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeg-Zl-o7O">
+                                                    <rect key="frame" x="36" y="87" width="168" height="0.0"/>
                                                     <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -243,14 +231,9 @@
                                         <rect key="frame" x="16" y="133" width="112" height="118"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="KK5-HX-agW">
-                                        <rect key="frame" x="87.666666666666686" y="120" width="200" height="85"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="KK5-HX-agW" firstAttribute="centerY" secondItem="mIe-qZ-qod" secondAttribute="centerY" id="5C4-2D-SAT"/>
-                                    <constraint firstItem="KK5-HX-agW" firstAttribute="centerX" secondItem="mIe-qZ-qod" secondAttribute="centerX" id="EGs-Z1-k17"/>
                                     <constraint firstAttribute="trailing" secondItem="kz7-Qj-c0j" secondAttribute="trailing" id="H84-ay-FUb"/>
                                     <constraint firstAttribute="bottom" secondItem="kz7-Qj-c0j" secondAttribute="bottom" id="MFb-Hf-7OB"/>
                                     <constraint firstItem="kz7-Qj-c0j" firstAttribute="top" secondItem="mIe-qZ-qod" secondAttribute="top" id="QLu-MZ-L2f"/>
@@ -267,9 +250,8 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box_color" translatesAutoresizingMaskIntoConstraints="NO" id="Mx3-Dt-pN8">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="300"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-jd-ns3">
-                                        <rect key="frame" x="20" y="30" width="295" height="142.33333333333334"/>
-                                        <string key="text">SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다. SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.</string>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저희 웹사이트에 오신 것을 환영합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-jd-ns3">
+                                        <rect key="frame" x="20" y="30" width="295" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -425,16 +407,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="952.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="RJe-F4-OWL" userLabel="타이틀">
-                                                <rect key="frame" x="49.333333333333343" y="44" width="276.33333333333326" height="48.666666666666657"/>
+                                                <rect key="frame" x="50" y="44" width="275" height="48.666666666666657"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SBS 컴퓨터 아카데미 사용을 위해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c7-VV-8fk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="276.33333333333331" height="22.333333333333332"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="원활한 앱 사용을 위해" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c7-VV-8fk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="275" height="22.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="NanumSquareRoundB" family="NanumSquareRound" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다음 접근 권한 허용이 필요합니다" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJR-kw-0eS">
-                                                        <rect key="frame" x="0.0" y="26.333333333333329" width="276.33333333333331" height="22.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="26.333333333333329" width="275" height="22.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="NanumSquareRoundB" family="NanumSquareRound" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1315,8 +1297,8 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SBS 컴퓨터" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gen-3l-A56">
-                                        <rect key="frame" x="102.66666666666669" y="90" width="170" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="컴퓨터" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gen-3l-A56">
+                                        <rect key="frame" x="139.66666666666666" y="90" width="96" height="39"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -1478,11 +1460,8 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="I6n-Q2-7B3">
-                                <rect key="frame" x="87.666666666666686" y="208" width="200" height="85"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hff-FV-kd8">
-                                <rect key="frame" x="20" y="313" width="335" height="31"/>
+                                <rect key="frame" x="20" y="208" width="335" height="31"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                 <state key="normal" title="로그인">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1497,11 +1476,9 @@
                             <constraint firstItem="hff-FV-kd8" firstAttribute="leading" secondItem="jJb-6n-0em" secondAttribute="leading" constant="20" id="9G6-cj-0lh"/>
                             <constraint firstItem="jJb-6n-0em" firstAttribute="trailing" secondItem="R7b-3T-AFS" secondAttribute="trailing" constant="20" id="A5x-cQ-BVw"/>
                             <constraint firstItem="jJb-6n-0em" firstAttribute="trailing" secondItem="hff-FV-kd8" secondAttribute="trailing" constant="20" id="B6a-hN-YbS"/>
-                            <constraint firstItem="hff-FV-kd8" firstAttribute="top" secondItem="I6n-Q2-7B3" secondAttribute="bottom" constant="20" id="NDp-dD-4gV"/>
-                            <constraint firstItem="I6n-Q2-7B3" firstAttribute="centerX" secondItem="sI1-ez-w6W" secondAttribute="centerX" id="UEe-P4-vZu"/>
+                            <constraint firstItem="hff-FV-kd8" firstAttribute="top" secondItem="R7b-3T-AFS" secondAttribute="bottom" constant="20" id="UyW-jE-Q46"/>
                             <constraint firstItem="R7b-3T-AFS" firstAttribute="leading" secondItem="jJb-6n-0em" secondAttribute="leading" constant="20" id="duP-Qr-6s6"/>
                             <constraint firstItem="hff-FV-kd8" firstAttribute="centerX" secondItem="sI1-ez-w6W" secondAttribute="centerX" id="e84-cf-gr3"/>
-                            <constraint firstItem="I6n-Q2-7B3" firstAttribute="top" secondItem="R7b-3T-AFS" secondAttribute="bottom" constant="20" id="gwv-6w-rjW"/>
                             <constraint firstItem="R7b-3T-AFS" firstAttribute="top" secondItem="jJb-6n-0em" secondAttribute="top" constant="20" id="w0C-U8-k6m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jJb-6n-0em"/>
@@ -1640,7 +1617,6 @@
         <image name="car_line" width="385" height="385"/>
         <image name="icon_step_delete_enb" width="21" height="21"/>
         <image name="icon_step_delete_sel" width="21" height="21"/>
-        <image name="logo" width="200" height="85"/>
         <image name="txt_field_chk" width="15" height="15"/>
     </resources>
     <inferredMetricsTieBreakers>

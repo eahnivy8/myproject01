@@ -37,7 +37,6 @@
 		6391847822D0269A00491F1C /* SettingMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391847722D0269A00491F1C /* SettingMainVC.swift */; };
 		6391847A22D03E7800491F1C /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391847922D03E7800491F1C /* Setting.storyboard */; };
 		63CD333B22C6EC350043E2C2 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD333A22C6EC350043E2C2 /* IntroVC.swift */; };
-		63E2C0F022C838530089D68F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63E2C0F222C838530089D68F /* Localizable.strings */; };
 		63E2C0F622C843970089D68F /* NotiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2C0F522C843970089D68F /* NotiVC.swift */; };
 		63E2C0F822C84E430089D68F /* JSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2C0F722C84E430089D68F /* JSViewController.swift */; };
 		63E2C0FB22C84FA20089D68F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 63E2C0FA22C84FA20089D68F /* test.html */; };
@@ -80,9 +79,6 @@
 		6391847722D0269A00491F1C /* SettingMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMainVC.swift; sourceTree = "<group>"; };
 		6391847922D03E7800491F1C /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		63CD333A22C6EC350043E2C2 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
-		63E2C0ED22C8349D0089D68F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		63E2C0F122C838530089D68F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		63E2C0F322C8385E0089D68F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63E2C0F522C843970089D68F /* NotiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiVC.swift; sourceTree = "<group>"; };
 		63E2C0F722C84E430089D68F /* JSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSViewController.swift; sourceTree = "<group>"; };
 		63E2C0FA22C84FA20089D68F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
@@ -158,7 +154,6 @@
 				6343177C22B4D078007F1EB8 /* LaunchScreen.storyboard */,
 				6343177F22B4D078007F1EB8 /* Info.plist */,
 				6343177722B4D077007F1EB8 /* MyApp.xcdatamodeld */,
-				63E2C0F222C838530089D68F /* Localizable.strings */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -333,7 +328,6 @@
 				6343177B22B4D078007F1EB8 /* Assets.xcassets in Resources */,
 				635757FB22BF10FE00F9CCE9 /* NanumSquareRoundR.ttf in Resources */,
 				6343177622B4D077007F1EB8 /* Main.storyboard in Resources */,
-				63E2C0F022C838530089D68F /* Localizable.strings in Resources */,
 				635757FA22BF10FE00F9CCE9 /* NanumSquareRoundB.ttf in Resources */,
 				6391847A22D03E7800491F1C /* Setting.storyboard in Resources */,
 				635757FC22BF10FE00F9CCE9 /* NanumSquareRoundL.ttf in Resources */,
@@ -425,7 +419,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6343177522B4D077007F1EB8 /* Base */,
-				63E2C0ED22C8349D0089D68F /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -436,15 +429,6 @@
 				6343177D22B4D078007F1EB8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		63E2C0F222C838530089D68F /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63E2C0F122C838530089D68F /* en */,
-				63E2C0F322C8385E0089D68F /* ja */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
