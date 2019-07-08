@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MyApp
+
+  Created by xeozin on 30/06/2019.
+  Copyright © 2019 xeozin. All rights reserved.
+*/
+
+"WELCOME" = " 님 환영합니다.";
+
+"LOGOUT" = "로그아웃";
+"LOGOUT_MSG" = "로그아웃 하시겠습니까?";
+"CONFIRM" = "확인";
+"CANCLE" = "취소";

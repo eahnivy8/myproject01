@@ -1,0 +1,150 @@
+
+/* Class = "UILabel"; text = "SBSコンピュータアカデミーの使用のため"; ObjectID = "0c7-VV-8fk"; */
+"0c7-VV-8fk.text" = "SBSコンピュータアカデミーの使用のため";
+
+/* Class = "UILabel"; text = "詳細"; ObjectID = "0lJ-KB-VH5"; */
+"0lJ-KB-VH5.text" = "詳細";
+
+/* Class = "UILabel"; text = "カリキュラム"; ObjectID = "1Y1-m4-o8N"; */
+"1Y1-m4-o8N.text" = "カリキュラム";
+
+/* Class = "UILabel"; text = "전화통화"; ObjectID = "2KI-sb-lCf"; */
+"2KI-sb-lCf.text" = "전화통화";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Mk-PH-Ipm"; */
+"2Mk-PH-Ipm.text" = "Label";
+
+/* Class = "UILabel"; text = "상세내용"; ObjectID = "3DY-Pd-qy0"; */
+"3DY-Pd-qy0.text" = "상세내용";
+
+/* Class = "UILabel"; text = "스위프트"; ObjectID = "4uH-nY-AOG"; */
+"4uH-nY-AOG.text" = "스위프트";
+
+/* Class = "UITextField"; placeholder = "아이디를 입력하세요"; ObjectID = "82Z-RV-6JN"; */
+"82Z-RV-6JN.placeholder" = "IDを入力してください";
+
+/* Class = "UISegmentedControl"; 8gE-mu-ZYp.segmentTitles[0] = "평일반"; ObjectID = "8gE-mu-ZYp"; */
+"8gE-mu-ZYp.segmentTitles[0]" = "평일반";
+
+/* Class = "UISegmentedControl"; 8gE-mu-ZYp.segmentTitles[1] = "주말반"; ObjectID = "8gE-mu-ZYp"; */
+"8gE-mu-ZYp.segmentTitles[1]" = "주말반";
+
+/* Class = "UILabel"; text = "수강신청"; ObjectID = "AcO-U6-w3W"; */
+"AcO-U6-w3W.text" = "受講申請";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "AlV-v1-h7x"; */
+"AlV-v1-h7x.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "타이틀"; ObjectID = "EXJ-Mp-bE5"; */
+"EXJ-Mp-bE5.text" = "타이틀";
+
+/* Class = "UILabel"; text = "강사"; ObjectID = "Ffe-RT-wOs"; */
+"Ffe-RT-wOs.text" = "강사";
+
+/* Class = "UILabel"; text = "카메라"; ObjectID = "GTc-Lf-ajM"; */
+"GTc-Lf-ajM.text" = "카메라";
+
+/* Class = "UILabel"; text = "위치"; ObjectID = "Idx-JW-8GP"; */
+"Idx-JW-8GP.text" = "위치";
+
+/* Class = "UILabel"; text = "개강일"; ObjectID = "Iym-R5-6iM"; */
+"Iym-R5-6iM.text" = "개강일";
+
+/* Class = "UILabel"; text = "SBS 님 환영합니다"; ObjectID = "Jeg-Zl-o7O"; */
+"Jeg-Zl-o7O.text" = "SBS様ようこそ";
+
+/* Class = "UILabel"; text = "메인으로 가기"; ObjectID = "N4K-7h-Q3O"; */
+"N4K-7h-Q3O.text" = "メインに行く";
+
+/* Class = "UILabel"; text = "お知らせ"; ObjectID = "NZy-T7-U6z"; */
+"NZy-T7-U6z.text" = "お知らせ";
+
+/* Class = "UILabel"; text = "기기 및 앱 기록"; ObjectID = "NjA-HN-wNY"; */
+"NjA-HN-wNY.text" = "기기 및 앱 기록";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "Py8-nD-i1W"; */
+"Py8-nD-i1W.text" = "ID";
+
+/* Class = "UILabel"; text = "약관동의"; ObjectID = "S6W-Sv-jCW"; */
+"S6W-Sv-jCW.text" = "利用規約に同意";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "TLR-od-gds"; */
+"TLR-od-gds.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "TcC-qF-Rfz"; */
+"TcC-qF-Rfz.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "다음 접근 권한 허용이 필요합니다"; ObjectID = "VJR-kw-0eS"; */
+"VJR-kw-0eS.text" = "次のアクセス許可を与える必要があります";
+
+/* Class = "UILabel"; text = "주말반"; ObjectID = "Z1m-vD-nWN"; */
+"Z1m-vD-nWN.text" = "주말반";
+
+/* Class = "UIBarButtonItem"; title = "메뉴"; ObjectID = "Zjh-Ln-VUA"; */
+"Zjh-Ln-VUA.title" = "메뉴";
+
+/* Class = "UILabel"; text = "사진/영상/파일"; ObjectID = "a0r-iq-xAH"; */
+"a0r-iq-xAH.text" = "사진/영상/파일";
+
+/* Class = "UINavigationItem"; title = "カリキュラム"; ObjectID = "abp-bL-UMn"; */
+"abp-bL-UMn.title" = "カリキュラム";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "bR5-MK-orn"; */
+"bR5-MK-orn.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다. SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다.SBS 아카데미 컴퓨터아트학원에 오신걸 환영합니다."; ObjectID = "cHX-jd-ns3"; */
+"cHX-jd-ns3.text" = "SBSアカデミーコンピュータアート学院へようこそ。SBSアカデミーコンピュータアート学院へようこそ.SBSアカデミーコンピュータアート学院へようこそ.SBSアカデミーコンピュータアート学院へようこそ.SBSアカデミーコンピュータアート学院へようこそ。";
+
+/* Class = "UILabel"; text = "주소록"; ObjectID = "cUo-Lg-WIg"; */
+"cUo-Lg-WIg.text" = "주소록";
+
+/* Class = "UIButton"; normalTitle = "저장"; ObjectID = "coW-Yf-zbv"; */
+"coW-Yf-zbv.normalTitle" = "저장";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "hqy-EA-Pgy"; */
+"hqy-EA-Pgy.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UIBarButtonItem"; title = "닫기"; ObjectID = "jBM-nO-6ZS"; */
+"jBM-nO-6ZS.title" = "닫기";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "kLV-bU-3NY"; */
+"kLV-bU-3NY.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "평일반/주말반"; ObjectID = "kS3-Zy-iIg"; */
+"kS3-Zy-iIg.text" = "평일반/주말반";
+
+/* Class = "UIBarButtonItem"; title = "메뉴"; ObjectID = "nLO-bP-ZNj"; */
+"nLO-bP-ZNj.title" = "메뉴";
+
+/* Class = "UILabel"; text = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。"; ObjectID = "oeM-bC-W99"; */
+"oeM-bC-W99.text" = "端末の活動情報、実行中のアプリ、インターネット活動の記録、ブックマークのいずれかを表示できるようにします。";
+
+/* Class = "UILabel"; text = "ログアウト"; ObjectID = "oov-bF-IMe"; */
+"oov-bF-IMe.text" = "ログアウト";
+
+/* Class = "UILabel"; text = "상세 설명"; ObjectID = "pJ1-y2-z1q"; */
+"pJ1-y2-z1q.text" = "상세 설명";
+
+/* Class = "UILabel"; text = "詳細"; ObjectID = "r30-hG-NvG"; */
+"r30-hG-NvG.text" = "詳細";
+
+/* Class = "UITextField"; placeholder = "패스워드를 입력하세요."; ObjectID = "roO-8X-e4u"; */
+"roO-8X-e4u.placeholder" = "패스워드를 입력하세요.";
+
+/* Class = "UILabel"; text = "제목"; ObjectID = "s7K-kb-OuZ"; */
+"s7K-kb-OuZ.text" = "제목";
+
+/* Class = "UIButton"; normalTitle = "확인"; ObjectID = "tm7-bv-88G"; */
+"tm7-bv-88G.normalTitle" = "확인";
+
+/* Class = "UILabel"; text = "お知らせ"; ObjectID = "uiN-jX-2h7"; */
+"uiN-jX-2h7.text" = "お知らせ";
+
+/* Class = "UILabel"; text = "2018-08-25"; ObjectID = "uvd-hQ-wXM"; */
+"uvd-hQ-wXM.text" = "2018-08-25";
+
+/* Class = "UINavigationItem"; title = "로그인"; ObjectID = "yZ4-V4-eZd"; */
+"yZ4-V4-eZd.title" = "ログイン";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yuf-3S-Ny7"; */
+"yuf-3S-Ny7.text" = "Label";

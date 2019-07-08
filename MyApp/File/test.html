@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <!--script -->
+        <script type="text/javascript" charset="UTF-8">
+
+            function callNative() {
+                try {
+                   webkit.messageHandlers.callbackHandler.postMessage("CLOSE");
+                   //webkit.messageHandlers.myCall.postMessage("MMM");
+                } catch (err) {
+                    alert(err);
+                }
+            }
+
+            function redHeader() {
+                alert('redHeader');
+                document.querySelector('h1').style.color = "red";
+
+                return "SBS"
+            }
+        </script>
+    </head>
+    <body>
+        <h1>한글 컨텐츠</h1>
+        <br><input type="button" onclick="callNative()" value="Send" />
+    </body>
+</html>
